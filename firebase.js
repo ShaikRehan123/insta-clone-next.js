@@ -8,7 +8,6 @@ const firebaseConfig = {
   storageBucket: "insta-68de9.appspot.com",
   messagingSenderId: "391461090725",
   appId: "1:391461090725:web:4fa0231bb5e5cde3b5a44c",
-  measurementId: "G-973WYYSP05"
 };
 
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp()
